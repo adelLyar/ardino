@@ -24,3 +24,9 @@ if(!index){
 			top = chainResult.top;
 		}
 		
+if(index && allIndex > -1){
+			activeIndex = this.activeRows.indexOf(index);
+			
+			this.displayRowIterator(function(rows){
+				var displayIndex = rows.indexOf(index);
+				
