@@ -15,7 +15,7 @@ if(typeof pos === "undefined"){
 var row = data instanceof Row ? data : new Row(data || {}, this),
 		top = this.findAddRowPos(pos),
 		allIndex = -1,
-		activeIndex, chainResult;
+		activeIndex, chainResult;//yes
 
 if(!index){
 			chainResult = this.chain("row-adding-position", [row, top], null, {index, top});
